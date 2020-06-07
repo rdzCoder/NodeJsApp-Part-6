@@ -30,3 +30,17 @@
 </div>
  
 <div class="container">
+  
+<%  if(error && error.length > 0) { %>
+    <div class="alert alert-danger" role="alert">
+      <%= error %>
+    </div>
+<% } %>
+
+<%  if(info && info.length > 0) { %>
+    <div class="alert alert-info" role="alert">
+      <%= info %>
+    </div>
+<% } %>
+
+
