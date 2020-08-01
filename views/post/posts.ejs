@@ -24,7 +24,7 @@
             <div class="caption">
                 <h3><%= post.title %></h3>
                 <p><%= post.content %></p>
-                <p><a href="#" class="btn btn-primary" role="button">Read</a> <a href="#" class="btn btn-default"
+                <p><a href="posts/<%= post._id %>" class="btn btn-primary" role="button">Read</a> <a href="posts/edit/<%= post._id %>" class="btn btn-default"
                         role="button">Edit</a></p>
             </div>
         </div>
